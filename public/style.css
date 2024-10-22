@@ -1,0 +1,35 @@
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #007bff, #0056b3); 
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(to right, #0056b3, #003f7f); 
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4); 
+    transform: translateY(-2px);
+}
+
+#editor-texto {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-danger {
+    color: #dc3545;
+    border-color: #dc3545;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(231, 12, 56, 0.4);
+    transform: translateY(-2px);
+}
