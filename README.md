@@ -29,6 +29,9 @@ npm install
 Rodar o servidor:
 npm run dev
 
+Acesse a página web: 
+http://localhost:3000/
+
 ## Exemplo de Uso
 Abra o chat em múltiplas abas do navegador.
 Digite uma mensagem e veja a atualização em tempo real entre os usuários conectados.
